@@ -1,0 +1,193 @@
+==============================================================================
+Master Effect ReBorn 1.0 for ReShade by Crosire.
+==============================================================================
+
+
+Contents:
+---------
+
+1. Installation
+2. Requirements
+3. Usage
+4. FAQ
+5. Credits
+6. Contact
+
+==============================================================================
+
+Installation:
+-------------
+
+Put the "ReShade.fx" and the .png files into the same folder you've installed
+ReShade into. That's it! MasterEffect locked and loaded.
+
+==============================================================================
+
+Requirements:
+-------------
+
+- ReShade
+- A game to use it on
+
+==============================================================================
+
+Usage:
+------
+
+Open up the .fx file and enable effects like this:
+
+#define EFFECT_XYZ       1      = enabled effect
+#define EFFECT_XYZ       0      = disabled effect
+
+Below you'll find values for each effect,play around with it 
+(they are not always preconfigured, also the enabled effect may
+not always be visible.If you enabled a lightning effect like 
+Lensflare, Godrays etc which one affect bright light sources, 
+try lowering the threshold. Make sure you only edit the numbers, 
+everything else may cause malfunction of shader! Also have a 
+close look at the recommended values, if it's [1.0 to 2.0], 
+every float value in between is OK like 1.4, 1.88 etc but if 
+there is [1 to 8] without commas, that means only integer values 
+can be entered like 1 2 3 4 etc.
+
+==============================================================================
+
+FAQ:
+----
+
+Q: 	I don't see any visual changes!!!!
+A: 	You need to enable an effect before usage. 
+
+Q:	Effects look weird!!
+A:	I disabled and scrambled the values before release
+	to force people to edit it.
+
+Q:	I don't get the installation!
+A:	Man (or woman), the MasterEffect project is only for 
+	ReShade users, if you don't know how to use ReShade, 
+	why bugging me?
+	
+Q:	My game crashes!
+A: 	Seriously, a shader can't get a game to crash. It's like 
+	a a leaf on the windscreen of a car that can never ever 
+	cause the engine to malfunction. It's probably ReShade 
+	crashing your game, report the crash to ReShade author, 
+	Crosire.
+
+Q:	HELP!
+A:	Contact me on facebook: 
+
+		facebook.com/MartyMcModding 
+
+	and provide information about your system like specs, 
+	game and stuff like that.
+
+Q: 	I don't have facebook!
+A:	Sorry, but suck it. I don't sign up on all different things 
+	like twitter or whatever just to give support to everyone.
+
+Q:	But can I have your email?
+A:	No, never again. I did that once, the result is that this 
+	email account gets rougly 300 spam mails per day because 
+	people kept subscribing on porn sites or similiar with 
+	that address only to annoy me. Not a big deal for me but 
+	a big deal for everyone seeking for help. Sorry again, 
+	but I'm not the one you have to blame.
+
+Q: 	I enabled a few things and it broke everything!!!
+A:	I am just a human being, I make mistakes. Report what's 
+	wrong, send me the exact config, then I can try to help you.
+
+
+==============================================================================
+
+Credits:
+--------
+
+Author		|   	Content (remember that content most likely is heavily
+				 altered by me but they're the true authors 
+				 nonetheless)
+
+------------------------------------------------------------------------------
+Boris Vorontsov	|	Lenz, Vignette, Skyrim Tonemapping 1-4
+------------------------------------------------------------------------------
+Matso		|	Anamorphic lensflare, Matso DOF
+------------------------------------------------------------------------------
+CeeJay.dk	|	Splitscreen, Explosion, Cartoon, Sharpening, Levels, 
+			Technicolor, DPX, Monochrome, LiftGammaGain, Tonemap, 
+			Vibrance, Curves, Sepia
+------------------------------------------------------------------------------
+JawZ		|	Skyrim Tonemapping 5
+------------------------------------------------------------------------------
+icelaglace	|	Color Mood, Chromatic Abberation (actually he ported it 
+			from some blog, author unknown), Lenz offsets
+------------------------------------------------------------------------------
+Ubisoft		|	Reinhard tonemapping, Reinhard Linear, 
+			Spherical Tonemap, Haarm Peter Duiker Tonemap, 
+			Filmiccurve
+------------------------------------------------------------------------------
+AAA aka opezdl	| 	Lenz code parts, Cross Processing
+------------------------------------------------------------------------------
+PetkaGtA	|	Lightscattering implementation, DOF
+------------------------------------------------------------------------------
+DKT70		|	HDR
+------------------------------------------------------------------------------
+Kermles		| 	his huge Skyrim tonemapping v6 modified exclusively 
+			for ME
+------------------------------------------------------------------------------
+Ryosuke		| 	Colormod Contrast/Gamma/Saturation controls 
+------------------------------------------------------------------------------
+LeiLei		|	LeiFX
+------------------------------------------------------------------------------
+gp65cj042	|	Grain, Movie bars, DOF
+------------------------------------------------------------------------------
+HeliosDoubleSix	|	vignette code
+------------------------------------------------------------------------------
+prod80		|	for some ideas, color hue fx, 3 strip technicolor
+------------------------------------------------------------------------------
+kingeric1992	|	Tilt Shift
+------------------------------------------------------------------------------
+Ethatron	|	SSAO ported from Crysis
+------------------------------------------------------------------------------
+
+
+That's all from what I know, if you believe to be author of a code part,
+feel free to contact me. Also, if you'd like to have yours removed, contact
+me, too, I will do that ASAP.
+
+
+==============================================================================
+
+Contact:
+--------
+
+facebook.com/MartyMcModding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
